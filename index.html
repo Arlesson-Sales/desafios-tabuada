@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+  </head>
+  <body onload="makeQuestion()">
+    <main>
+      <section id="mainBox">
+        <div class="container">
+          <h3 id="title">Duvido você acertar!</h3>
+          <div id="result">
+            0 x 0 =
+          </div>
+          <input type="number" id="numberBox">
+          
+          <div class="container container-button">
+            <input id="jumpButton" class="controlButton" type="button" value="Próximo">
+            <input id="answerButton" class="controlButton" type="button" value="responder">
+          </div>
+        </div>
+      </section>
+      <div class="container-final">
+        <input class="controlButton" id="tabuadaButton" type="button" value="Tabuada">
+      </div>
+      <div id="tabuadaBox" class="container container-tabuada">
+        <ul id="tabuadaList"></ul>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
