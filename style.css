@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {margin: 0px; padding: 0px; font-family: Arial, Sans-serif}
+
+body {
+  background-color: #138cf4;
+}
+
+/* Formatando a caixa principal */
+#mainBox {
+  background-color: #eee;
+  padding: 20px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border-radius: 5pt;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+
+#mainBox h3 {
+  font-family: Arial, Sans-Serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Formatando Caixa de numero e resultado */
+#numberBox {
+  display: block;
+  margin: auto;
+  position: relative;
+  left: 20px;
+  width: 150px;
+  border-radius: 5pt;
+  outline-color: #138cf4;
+  padding: 5px;
+}
+
+#result {
+  position: relative;
+  width: 50px;
+  left: 30px;
+  top: 21px;
+}
+
+/* Formatando divs */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container-button {
+  margin-top: 30px;
+}
+
+.container-tabuada {
+  width: 100px;
+  margin: auto;
+  display: none;
+  border-radius: 5pt;
+  background-color: #ddd;
+  padding: 5px;
+}
+
+.container-tabuada ul li {
+  display: block;
+  position: relative;
+  left: 5px;
+  margin: auto;
+}
+
+.container-final {
+  width: 300px;
+  padding: 5px;
+  list-style: none;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* Formatando botões */
+.controlButton {
+  color: #fff;
+  border: 0px;
+  background-color: #888;
+  text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  left: 5px;
+  margin-left: 30px;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+}
+
+.controlButton:hover {
+  border: 1px solid rgba(0,0,0,.5);
+}
+
+#jumpButton {
+  background-color: #1ac7f2;
+}
+
+#answerButton {
+  background-color: #07f58b;
+}
+
+#tabuadaButton {
+  background-color: #568;
+  left: -30px;
+  width: 100%;
+}
